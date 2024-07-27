@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../CSS_files/register.css">
+</head>
+<body>
+    
+    <div class="outer"></div>
+
+    <div class="container">
+        <div class="form_area">
+            <p class="title"><u>SIGN UP</u></p>
+            <form action="" id="register_page">
+                <div class="form_group">
+                    <label class="sub_title" for="name">Name</label>
+                    <input placeholder="Enter your full name" name="name" class="form_style" type="text" id="name">
+                </div>
+
+                <div class="form_group">
+                    <label class="sub_title" for="email">Email</label>
+                    <input placeholder="Enter your email" id="email" class="form_style" type="email" name="email">
+                </div>
+                
+                <div class="form_group">
+                    <label class="sub_title" for="password">Password</label>
+                    <input placeholder="Enter your password" id="password" class="form_style" type="password" name="password">
+                </div>
+                
+                <div>
+                    <button class="btn" id="signup_btn">SIGN UP</button>
+                    <p>Have an Account? <u id="login_btn" class="link">  Login Here!</u>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="../JS_files/register.js"></script>
+    
+</body>
+</html>

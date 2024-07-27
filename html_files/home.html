@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="../CSS_files/home.css">
+
+    <!-- cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <main id="outer_border">
+        <div id="in_outer">
+            <nav id="nav">
+                <ul id="list_items">
+                    <li>
+                        <img src="../images/logo.jpeg" alt="" id="logo">
+                    </li>
+                    <li class="items" id="home">Home</li>
+                    <li>
+                        <input type="search" name="search" placeholder="search here.." id="search">
+                    </li>
+                    <li>
+                        <p id="userEmail"></p>
+                    </li>
+                    <li class="items"  id="user">
+                        <i class="fa-solid fa-user" ></i>  
+                    </li>
+                    
+                    <div id="logout_box">
+                        <button id="logout_btn">Logout</button>
+                    </div>
+                    
+                    <li class="items third_item" id="cart_plus">
+                        <i class="fa-solid fa-cart-plus" id="cartIcon"></i>
+                        <div id="cart_num">0</div>
+                    </li>
+                </ul>
+            </nav>
+
+            <section id="body_part">
+                    <div id="parent">
+
+                        <!-- <div id="container">
+                            <div class="image_border">
+                                <img src="" alt="" class="Product_img">
+                            </div>
+
+                            <div class="product_details_border">
+                                <div class="product_details">
+                                    <div class="P_title">ghj</div>
+                                    <p class="description"> bnm</p>
+                                    <p class="category">gh</p>
+                                    <p class="price"><span></span></p>
+                                    <p class="rating">
+                                        <span></span>
+                                    </p>
+
+                                </div>
+                    
+                                <div class="cart">
+                                    <button class="add_to_cart" id="add_to_cart">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div> 
+                    <!-- <div id="root"></div> -->
+            </section>
+
+            
+
+
+            <!--footer  -->
+            <footer id="footer">
+
+                <div class="footer_upper_part">
+                    <!-- 1st -->
+                    <ol class="about_details">
+                        <li class="heading">ABOUT</li>
+                        <li class="footer_item">Contact Us</li>
+                        <li class="footer_item">About Us</li>
+                        <li class="footer_item">Careers</li>
+                        <li class="footer_item">Stories</li>
+                    </ol>
+
+                    <!-- 2nd -->
+                    <ol class="about_details">
+                        <li class="heading">GROUP COMPANIES</li>
+                        <li class="footer_item">About E-Commerce Fuel</li>
+                        <li class="footer_item">Contact</li>
+                        <li class="footer_item">Careers</li>
+                        <li class="footer_item">Our Journals</li>
+                    </ol>
+
+                    <!-- 3rd -->
+                    <ol class="about_details">
+                        <li class="heading">HELP</li>
+                        <li class="footer_item">Payments</li>
+                        <li class="footer_item">Shipping</li>
+                        <li class="footer_item">Cancellation & Return</li>
+                        <li class="footer_item">Report Infringement</li>
+                    </ol>
+
+                    <!-- 4th -->
+                    <ol class="about_details">
+                        <li class="heading">CONSUMER POLICY</li>
+                        <li class="footer_item">Cancellation & Return</li>
+                        <li class="footer_item">Terms of Use</li>
+                        <li class="footer_item">Security</li>
+                        <li class="footer_item">Privacy</li>
+                        <li class="footer_item">Sitemap</li>
+                        <li class="footer_item">EPR Compliance</li>
+                    </ol>
+                    
+
+                    <!-- 5th -->
+                    <ol class="about_details">
+                        <li class="heading">FAQs</li>
+                        <li class="footer_item">Information</li>
+                        <li class="footer_item">
+                            <b>
+                                <u><big>Payment</big></u>
+                            </b>
+                        </li>
+                        <li class="footer_item">Returns</li>
+                        <li class="footer_item">Gift Card</li>
+                    </ol>
+
+                </div>
+
+
+
+                <div class="footer_lower_part">
+
+                    <p>© 2024 .ALL RIGHTS RESERVED</p>
+
+                    <p><big>EN</big></p>
+
+                    <p>
+                        <div class="payments">
+                            <span>ACCEPT FOR </span>
+                            <img class="app_icons" src="https://www.svgrepo.com/show/475665/paypal-color.svg" alt="pay_using_paypal">
+                            <img class="app_icons" src="https://www.svgrepo.com/show/452222/google-pay.svg" alt="pay_using_gapy">
+                            <img class="app_icons" src="https://www.svgrepo.com/show/303275/apple-pay-payment-mark-logo.svg" alt="pay_using_apple_pay">
+                          </div>
+                    </p>
+
+                </div>
+
+
+            </footer>
+
+        </div>
+    </main>
+
+    <script src="../JS_files//home.js" type="module"></script>
+    <script src="../JS_files/add_to_cart.js" type="module"></script>
+
+</body>
+</html>
